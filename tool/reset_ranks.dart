@@ -1,7 +1,10 @@
 import 'dart:io';
 
 const ranksDir = "./lib/src/ranks/";
-String template(String name) => "final $name = <String,int>{};";
+String template(String name) => "/// Placeholder file\n///\n"
+    "/// Use `download_ranks.dart` script under the `\\tools` directory\n"
+    "/// to download required files.\n\n"
+    "final $name = <String,int>{};";
 
 // k:fileName, v:varName
 const ranks = {
