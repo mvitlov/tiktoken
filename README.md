@@ -19,7 +19,7 @@ The main `Tiktoken` class exposes APIs that allow you to process text using toke
 For more examples, see the `/example` folder.
 
 ```dart
-import 'package:tiktoken/toktoken.dart';
+import 'package:tiktoken/tiktoken.dart';
 
 // Load an encoding
 final encoding = encodingForModel("gpt-3.5-turbo");
@@ -34,7 +34,7 @@ print(encoding.decode([83, 1609, 5963, 374, 2294, 0])); // "tiktoken is great!"
 ## Extending tiktoken
 You may wish to extend `Tiktoken` to support new encodings. You can do this by passing around the existing model:
 ```dart
-import 'package:tiktoken/toktoken.dart';
+import 'package:tiktoken/tiktoken.dart';
 
 // Create a base
 final cl100kBase = encodingForModel("cl100k_base");
