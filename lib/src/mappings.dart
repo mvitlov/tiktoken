@@ -4,12 +4,14 @@ import 'package:tiktoken/tiktoken.dart';
 // ignore: constant_identifier_names
 const _MODEL_PREFIX_TO_ENCODING = {
   // chat
+  "gpt-4-": "cl100k_base", // e.g., gpt-4-0314, etc., plus gpt-4-32k
   "gpt-3.5-turbo-": "cl100k_base" // e.g, gpt-3.5-turbo-0301, -0401, etc.
 };
 
 // ignore: constant_identifier_names
 const _MODEL_TO_ENCODING = {
   // chat
+  "gpt-4": "cl100k_base",
   "gpt-3.5-turbo": "cl100k_base",
   // text
   "text-davinci-003": "p50k_base",
