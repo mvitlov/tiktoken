@@ -29,6 +29,10 @@ print(encoding.encode("tiktoken is great!")); // [83, 1609, 5963, 374, 2294, 0]
 
 // Decode tokens
 print(encoding.decode([83, 1609, 5963, 374, 2294, 0])); // "tiktoken is great!"
+
+// Alternatively, get the tokenizer by specifying encoding name:
+final encoding = getEncoding("cl100k_base");
+assert(enc.decode(enc.encode("hello world")) == "hello world");
 ```
 
 ## Extending tiktoken
