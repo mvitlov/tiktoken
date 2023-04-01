@@ -22,7 +22,7 @@ For more examples, see the `/example` folder.
 import 'package:tiktoken/tiktoken.dart';
 
 // Load an encoding
-final encoding = encodingForModel("gpt-3.5-turbo");
+final encoding = encodingForModel("gpt-4");
 
 // Tokenize text
 print(encoding.encode("tiktoken is great!")); // [83, 1609, 5963, 374, 2294, 0]
