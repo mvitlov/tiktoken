@@ -1,3 +1,6 @@
+## 1.0.3
+- Refactor: reduce AOT compile size by ~30%
+
 ## 1.0.2
 - Add support for `GPT-4`
 
