@@ -109,10 +109,10 @@ class CoreBPEConstructor {
   final int? explicitNVocab;
 
   static const all = {
-    "gpt2": CoreBPEConstructor.gpt2,
-    "r50k_base": CoreBPEConstructor.r50kBase,
-    "p50k_base": CoreBPEConstructor.p50kBase,
-    "p50k_edit": CoreBPEConstructor.p50kEdit,
-    "cl100k_base": CoreBPEConstructor.cl100kBase,
+    "gpt2",
+    "r50k_base",
+    "p50k_base",
+    "p50k_edit",
+    "cl100k_base",
   };
 }
