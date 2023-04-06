@@ -3,7 +3,7 @@ description: Tiktoken is a BPE tokeniser for use with OpenAI's models. It expose
 homepage: https://marinvitlov.com
 repository: https://github.com/mvitlov/tiktoken
 issue_tracker: https://github.com/mvitlov/tiktoken/issues?q=is%3Aissue+is%3Aopen+
-version: 1.0.2
+version: 1.0.3
 
 environment:
   sdk: '>=2.15.0 <3.0.0'
