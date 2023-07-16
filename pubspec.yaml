@@ -7,8 +7,20 @@ version: 1.0.3
 
 environment:
   sdk: '>=2.15.0 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
 
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.16.0
+
+flutter:
+  assets:
+    - lib/tokens/cl100k_base/
+    - lib/tokens/gpt2/
+    - lib/tokens/p50k_base/
+    - lib/tokens/r50k_base/
 
